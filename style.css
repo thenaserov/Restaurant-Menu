@@ -42,8 +42,6 @@ footer>h2 {
   width: 30%;
   height: 175px;
   object-fit: cover;
-  border: 0.25rem solid black;
-  border-radius: 10px;
   box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
 }
 .menu-items {

@@ -1,30 +1,30 @@
 const menu = [
   {
     id: 1,
-    title: "Spicy Lobster",
+    title: "Espresso",
     category: "COFFEE",
-    price: 19.00,
+    price: 50,
     img:
-      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/02/05/KC2312_lobster-scampi_s4x3.jpg.rend.hgtvcom.616.462.suffix/1580923140032.jpeg",
-    desc: `Ounce lobster tails, white wine, san marzano, red chile, olive oil. `,
+      "/res/espresso.jpg",
+    desc: `A shot of coffee`,
   },
   {
     id: 2,
-    title: "Baked Escargot",
+    title: "Espresso Macchiato",
     category: "COFFEE",
-    price: 16.00,
+    price: 50,
     img:
-      "https://assets.epicurious.com/photos/57a8adfbb10b4fb03f234f37/master/w_1000,h_667,c_limit/escargots-a-la-bourguignonne.jpg",
-    desc: `White wine, escargots, parmesan cheese, butter, olive. `,
+      "/res/espressomachiato.avif",
+    desc: `A shot of creamy coffee `,
   },
   {
     id: 3,
-    title: "Seared Ahi Tuna",
+    title: "Americano",
     category: "COFFEE",
-    price: 17.50,
+    price: 50,
     img:
-      "https://hips.hearstapps.com/hmg-prod/images/190226-seared-tuna-435-1552085484.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*",
-    desc: `Ahi tuna, soy sauce, honey, toasted sesame oil, toasted sesame honey marinade. `,
+      "/res/americano.webp",
+    desc: `A shot of coffee with extra water`,
   },
   {
     id: 4,
@@ -179,7 +179,7 @@ let displayMenu = menuItems.map((item) => {
           <div class="menu-info">
             <div class="menu-title">
               <h4>${item.title}</h4>
-              <h4 class="price">$${item.price}</h4>
+              <h4 class="price">${item.price}</h4>
             </div>
             <div class="menu-text">
               ${item.desc}

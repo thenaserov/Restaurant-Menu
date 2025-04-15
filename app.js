@@ -38,7 +38,7 @@ const menu = [
   {
     id: 5,
     title: "Filet Mignon, 8 ounce",
-    category: "COLD DRINK",
+    category: "COLDDRINKS",
     price: 38.00,
     img:
       "https://qvc.scene7.com/is/image/QVC/m/98/m66298.001",
@@ -47,16 +47,16 @@ const menu = [
   {
     id: 6,
     title: "Filet Mignon, 12 ounce",
-    category: "COLD DRINK",
+    category: "COLDDRINKS",
     price: 49.00,
     img:
       "https://i0.wp.com/peteandsams.com/wp-content/uploads/2018/08/HC-Filet-1_small-1024x688.jpg?fit=1024%2C688&ssl=1",
-    desc: `Filet mignon COLD DRINK, garlic, sea salt, fresh rosemary, black pepper. `,
+    desc: `Filet mignon COLDDRINKS, garlic, sea salt, fresh rosemary, black pepper. `,
   },
   {
     id: 7,
     title: "Rib Eye Steak, 18 ounce",
-    category: "COLD DRINK",
+    category: "COLDDRINKS",
     price: 39.00,
     img:
       "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61xeljO9CiL.jpg",
